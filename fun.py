@@ -35,3 +35,8 @@ def average(numbers):
 a1 = average([1, 2, 3])
 print(a1)
 print(average([1, 2, 3]))
+
+def hello(x, y=1): #"沒預設值的"　一定要在　"有預設值的"　的前面
+    print(x, y)
+ 
+hello(3, 4) #雖然有預設值，但有投東西給它，所以不管預設值
